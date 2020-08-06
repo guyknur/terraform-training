@@ -7,7 +7,7 @@ provider "aws" {
 resource "aws_instance" "app" {
   ami = "ami-adecbdcc"
   instance_type = "t2.micro"
-  subnet_id = "subnet-09960ea71a650983b"
+  subnet_id = "subnet-9d3d7deb"
 
   tags = {
     Name = "Tom Dunn's App"
